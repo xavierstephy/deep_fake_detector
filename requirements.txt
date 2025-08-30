@@ -1,0 +1,23 @@
+# App/UI
+streamlit>=1.36.0
+
+# Core ML stack
+torch>=2.2.0
+torchvision>=0.17.0
+
+# Image/Video + Numerics
+opencv-python>=4.9.0.80
+numpy>=1.26.0
+Pillow>=10.0.0
+
+# Training utilities
+tqdm>=4.66.0
+scikit-learn>=1.3.0
+matplotlib>=3.8.0
+
+# Optional serving (not required for training or Streamlit demo)
+Flask>=3.0.0
+
+# Optional model export/runtime
+onnx>=1.15.0
+onnxruntime>=1.16.0
